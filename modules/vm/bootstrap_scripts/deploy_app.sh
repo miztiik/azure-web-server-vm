@@ -110,10 +110,7 @@ function install_nginx(){
     HOSTNAME=$(hostname)
 
     # Create the index.html file with the desired content
-    sudo sh -c "echo '$(date)
-    Hello World from miztiik
-    Server IP: $IP_ADDRESS
-    Hostname: $HOSTNAME' > /var/www/html/index.html"
+    sudo sh -c "echo 'Hello World from miztiik-automation-vm <b>$HOSTNAME</b> <b>$IP_ADDRESS</b> on $(date) ' > /var/www/html/index.html"
 
     # Start the nginx service
     sudo service nginx restart

@@ -22,8 +22,8 @@ A simple demo to run Nginx on Azure VM.
    - Get the application code
 
      ```bash
-     git clone https://github.com/miztiik/azure-event-hub-partition-processor.git
-     cd azure-event-hub-partition-processor
+     git clone https://github.com/miztiik/azure-web-server-vm.git
+     cd azure-web-server-vm
      ```
 
 3. ## 🚀 Prepare the local environment
@@ -70,7 +70,7 @@ A simple demo to run Nginx on Azure VM.
       You should see an output like this,
 
       ```text
-       Hello World
+      Hello World from miztiik-automation-vm m-web-srv-web-srv-vm-001 10.0.0.4 on Fri May 26 18:53:46 UTC 2023
       ```
 
 6. ## 📒 Conclusion
